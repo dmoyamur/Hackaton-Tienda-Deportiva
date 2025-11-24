@@ -79,7 +79,7 @@ export const productos = [
   {
     id: 9,
     nombre: "Athletic Race H",
-    imagen: "",
+    imagen: "https://cdn.pixabay.com/photo/2014/06/18/18/42/running-shoe-371625_960_720.jpg",
     descripcion: "Tennis Running Hombre",
     categoria: "Calzado deportivo",
     precio: 225000,
@@ -88,7 +88,7 @@ export const productos = [
   {
     id: 10,
     nombre: "Athletic Race M",
-    imagen: "t2.jpg",
+    imagen: "https://cdn.pixabay.com/photo/2014/06/18/18/41/running-shoe-371624_1280.jpg",
     descripcion: "Tennis Running Mujer",
     categoria: "Calzado deportivo",
     precio: 225000,
@@ -97,7 +97,7 @@ export const productos = [
   {
     id: 11,
     nombre: "Converse Chuck Taylor Heroes",
-    imagen: "utils\images\t3.jpg",
+    imagen: "https://cdn.pixabay.com/photo/2013/05/31/20/33/running-shoes-115149_1280.jpg",
     descripcion: "Tennis Casuales Hombre",
     categoria: "Calzado deportivo",
     precio: 320000,
@@ -106,7 +106,7 @@ export const productos = [
   {
     id: 12,
     nombre: "Nike Air Jordan",
-    imagen: "t4.jpg",
+    imagen: "https://cdn.pixabay.com/photo/2019/12/11/08/43/sneaker-4687823_1280.jpg",
     descripcion: "Tennis Casuales Hombre",
     categoria: "Calzado deportivo",
     precio: 320000,
@@ -115,7 +115,7 @@ export const productos = [
   {
     id: 13,
     nombre: "Meindl Running H",
-    imagen: "t5.jpg",
+    imagen: "https://cdn.pixabay.com/photo/2020/07/19/05/29/adidas-5418991_1280.jpg",
     descripcion: "Tennis Meindl Running Hombre",
     categoria: "Calzado deportivo",
     precio: 260000,
@@ -126,7 +126,7 @@ export const productos = [
   {
     id: 14,
     nombre: "Rompevientos azul H",
-    imagen: "chaqueta1.png",
+    imagen: "https://cdn.pixabay.com/photo/2017/10/29/13/17/jacket-2899728_1280.png",
     descripcion: "Chaqueta rompevientos azul Hombre",
     categoria: "Chaquetas deportivas",
     precio: 110000,
@@ -135,7 +135,7 @@ export const productos = [
   {
     id: 15,
     nombre: "Rompevientos vinotinto H",
-    imagen: "chaqueta2.jpg",
+    imagen: "https://cdn.pixabay.com/photo/2021/08/15/01/55/couple-6546563_1280.jpg",
     descripcion: "Chaqueta rompevientos vinotinto Hombre",
     categoria: "Chaquetas deportivas",
     precio: 110000,
@@ -144,7 +144,7 @@ export const productos = [
   {
     id: 16,
     nombre: "Hoodie Badfit negro H",
-    imagen: "chaqueta3.jpg",
+    imagen: "https://cdn.pixabay.com/photo/2022/11/22/06/21/man-7608818_960_720.jpg",
     descripcion: "Hoodie Badfit negro Hombre",
     categoria: "Chaquetas deportivas",
     precio: 180000,
@@ -152,9 +152,9 @@ export const productos = [
   },
   {
     id: 17,
-    nombre: "Chaqueta casual caqui H",
-    imagen: "chaqueta4.jpg",
-    descripcion: "Chaqueta casual caqui Hombre",
+    nombre: "Chaqueta casual verde H",
+    imagen: "https://cdn.pixabay.com/photo/2016/03/27/18/49/man-1283576_1280.jpg",
+    descripcion: "Chaqueta casual verde Hombre",
     categoria: "Chaquetas deportivas",
     precio: 230000,
     descuentos: "No disponible",
@@ -162,7 +162,7 @@ export const productos = [
   {
     id: 18,
     nombre: "Chaqueta beisbolera H",
-    imagen: "chaqueta5.jpg",
+    imagen: "https://cdn.pixabay.com/photo/2022/04/04/18/28/male-7112073_960_720.jpg",
     descripcion: "Chaqueta beisbolera New York Yankees Hombre",
     categoria: "Chaquetas deportivas",
     precio: 380000,
