@@ -196,3 +196,12 @@ h2{
     transform: translateY(-50%);
     pointer-events: none;
 }
+
+.datosFooter{
+  background-color: var(--color-accent)!important;
+  align-items: center;
+}
+
+.datosF{
+  background-color: var(--color-secondary);
+}
