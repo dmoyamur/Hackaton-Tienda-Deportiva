@@ -166,7 +166,33 @@ h2{
   text-align: center;
 }
 
-.mapa{
-  width:600;
-  height:450;
+.logonav{
+  width: 150px;
+  height: 100px;
+}
+
+.navbar{
+  background-color: var(--color-primary)!important ;
+}
+
+.nav-item{
+  font-size: 20px;
+}
+
+.search-container {
+    position: relative;
+    width: 250px;
+}
+
+.search-container input {
+    width: 100%;
+    padding: 8px 35px 8px 10px; 
+}
+
+.search-container i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
 }
