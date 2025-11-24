@@ -2,8 +2,8 @@
   --color-primary: #f05300;    
   --color-secondary: #f5f5dc;   
   --color-accent: #ff7c39;      
-  --color-grey: #cbcbca        
-  --color-grey-dark: #2c2c28   
+  --color-grey: #cbcbca;        
+  --color-grey-dark: #2c2c28;
   --font-main: sans-serif;
 
   --btn-radius: 8px;
@@ -24,4 +24,52 @@
 
 .btn-add-primary:hover {
   background-color: var(--color-secondary);
+  color: black;
+}
+
+.categorias{
+  background-color: var(--color-secondary);
+  color: black;
+}
+
+.categorias:hover {
+  background-color: var( --color-accent);
+  color: #fff;
+}
+
+.card-img-top{
+  width: 280px;
+  height: 350px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.card-img-top:hover{
+  width: 350px;
+  height: 500px;
+  margin-left: 0px;
+}
+
+.card{
+  background-color:  #f5f5dc;
+}
+
+.card-title{
+  font-weight: bold;
+  text-align: center;
+}
+
+.precio{
+  text-align: center;
+}
+
+.agregar-carrito{
+    background-color: var(--color-accent);
+    color: black;
+    alignment-baseline: center;
+}
+
+.agregar-carrito:hover{
+    background-color: var( --color-accent);
+    color: #fff;
 }
