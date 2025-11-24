@@ -46,47 +46,139 @@
                                 placeholder="Search" aria-label="Search" />
                             <button
                                 class="btn btn-outline-success btn-add-primary"
-                                type="submit">Search</button>
+                                type="submit">Buscar</button>
                         </form>
                     </ul>
                 </div>
             </div>
         </nav>
     </head>
-        <!--Categorías-->
+    <!--Categorías-->
 
-        <div class="card text-center">
+         <div class="container">
             <div class="card-header">
                 <ul class="nav nav-tabs card-header-tabs" id="categorias-tabs">
                     <li class="nav-item">
-                        <a class="nav-link active" data-category="Calzado"
-                            href="#">Calzado</a>
+                    <a class="nav-link categorias" data-category="Camiseta" href="#">Camisetas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-category="Ropa"
-                            href="#">Ropa</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-category="Accesorios"
-                            href="#">Accesorios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-category="Otros"
-                            href="#">Otros</a>
-                    </li>
-                </ul>
-            </div>
+                       <a class="nav-link categorias" data-category="Calzado deportivo" href="#">Calzado deportivo</a>
 
-            <div class="container mt-3">
-                <div class="row" id="productos-container"></div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link categorias" data-category="Chaquetas deportivas" href="#">Chaquetas</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link categorias" data-category="Pantaloneta" href="#">Pantalonetas</a>
+
+                    </li>
+                     <li class="nav-item">
+                   <a class="nav-link active categorias" data-category="Todas" href="#">Todos</a>
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="container mt-3">
+            <div class="row" id="productos-container"></div>
+        </div>
+    </div>
+    
+    <!-- Modal Carrito -->
+    <div class="modal fade" id="modalCarrito" tabindex="-1"
+        aria-labelledby="modalCarritoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modalCarritoLabel">Mi
+                        carrito</h1>
+                    <button type="button" class="btn-close"
+                        data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+
+                <div class="modal-body" id="carrito-body">
+                    <!-- Aquí se cargan los productos del carrito -->
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary"
+                        data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-success"
+                        id="btnFinalizarCompra">Finalizar compra</button>
+                </div>
             </div>
         </div>
-      <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-            crossorigin="anonymous"></script>
-        <script type="module" src="./scripts/main.js"></script>
-    <body>
+    </div>
+
+<section class="about-section py-5">
+        <div class="container">
+
+            <h2 class="text-center mb-5 section-title">Acerca de Nosotros</h2>
+
+            <div class="row align-items-center g-5">
+
+                <!-- Imagen -->
+                <div class="col-md-6">
+                    <img src="./logo/logo.png" 
+                         class="img-fluid about-img rounded-4" alt="Gen Generation Team">
+                </div>
+
+                <!-- Texto -->
+                <div class="col-md-6">
+                    <h3 class="subtitle mb-3">Quiénes Somos</h3>
+                    <p class="about-text mb-4">
+                        En <strong>Gen Generation</strong> diseñamos ropa deportiva minimalista, ligera y funcional
+                        para personas que buscan rendimiento con un estilo limpio y moderno.
+                    </p>
+
+                    <h3 class="subtitle mb-3">Nuestra Filosofía</h3>
+                    <p class="about-text mb-4">
+                        Creemos en el poder del movimiento. Cada prenda está creada para ofrecer comodidad, calidad
+                        y diseño sin distracciones, manteniendo una estética sobria y profesional.
+                    </p>
+
+                    <h3 class="subtitle mb-3">Lo que hacemos</h3>
+                    <p class="about-text mb-4">
+                        Producimos camisetas, pantalonetas, chaquetas y tenis deportivos inspirados en el minimalismo,
+                        enfocándonos en cortes limpios, colores neutros y materiales premium.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+   <footer>
+    <div class="lado_iz"></div>
+    <div id="logo">
+        <img id="imagen" src="logo/logo.png" alt="">
+    </div>
+    <div class="menu">
+    <h3>Menu</h3>
+    <p><a class="link-offset-2 link-underline link-underline-opacity-0" href="#">Inicio</a></p>
+    <p><a class="link-offset-2 link-underline link-underline-opacity-0" href="#">Tienda</a></p>
+    <p><a class="link-offset-2 link-underline link-underline-opacity-0" href="#">Contacto</a></p>
+    <p><a class="link-offset-2 link-underline link-underline-opacity-0" href="#">Mi cuenta</a></p>
+    </div>
+    <div class="contacto">
+    <h3>Contacto</h3>
+    <p>Gen_clothes@gmail.com</p>
+    <p>3201234567</p>
+    <p>Suba, Bogota, Colombia</p>
+    </div>
+    
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script type="module" src="./scripts/main.js"></script>
+  </div>
+</div>
   
+
+    <body>
+
     </body>
 </html>
