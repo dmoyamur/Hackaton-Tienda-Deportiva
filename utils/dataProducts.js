@@ -1,6 +1,7 @@
 export const productos = [
   // CAMISETAS
   {
+    id: 1,
     nombre: "Camiseta esqueleto Deportiva",
     descripcion: "Esqueleto Amplio Con Diseño Geométrico, Para Hombre",
     imagen: "https://cdn.pixabay.com/photo/2016/02/16/19/18/man-1203885_960_720.jpg",
@@ -9,6 +10,7 @@ export const productos = [
     descuentos: "0.1",
   },
   {
+    id: 2,
     nombre: "Camiseta Deportiva Mujer",
     imagen: "https://cdn.pixabay.com/photo/2023/05/08/21/59/woman-7979850_1280.jpg",
     descripcion: "Camiseta Minimalista AEROREADY Train Essentials Cuello Redondo",
@@ -17,6 +19,7 @@ export const productos = [
     descuentos: "0.1",
   },
   {
+    id: 3,
     nombre: "Camisita Deportiva Hombre",
     imagen: "https://cdn.pixabay.com/photo/2025/06/23/06/50/t-shirt-9675272_1280.jpg",
     descripcion: "Camiseta Training Essentials Holiday Pack",
@@ -25,6 +28,7 @@ export const productos = [
     descuentos: "0.15",
   },
   {
+    id: 4,
     nombre: "Camisita Deportiva Licra",
     imagen: "https://cdn.pixabay.com/photo/2016/09/21/21/37/sport-1685737_960_720.jpg",
     descripcion: "Camiseta Training Essentials Licra",
@@ -35,6 +39,7 @@ export const productos = [
 
   // PANTALONETAS
   {
+    id: 5,
     nombre: "Pantaloneta Deportiva Hombre",
     descripcion: "Pantaloneta Entrenamiento, Para hombre",
     imagen: "https://cdn.pixabay.com/photo/2022/11/26/22/24/athlete-7618566_1280.jpg",
@@ -43,6 +48,7 @@ export const productos = [
     descuentos: "0.1",
   },
   {
+    id: 6,
     nombre: "Pantaloneta Running Hombre",
     imagen: "https://cdn.pixabay.com/photo/2023/10/04/14/15/man-8293794_1280.jpg",
     descripcion: "Pantaloneta tipo running. Para hombre",
@@ -51,6 +57,7 @@ export const productos = [
     descuentos: "0.1",
   },
   {
+    id: 7,
     nombre: "Pantaloneta Running Mujer",
     imagen: "https://cdn.pixabay.com/photo/2024/08/18/13/00/woman-8977930_960_720.jpg",
     descripcion: "Pantaloneta tipo running. Para Mujer",
@@ -59,6 +66,7 @@ export const productos = [
     descuentos: "0.15",
   },
   {
+    id: 8,
     nombre: "Pantaloneta Deportiva Mujer",
     imagen: "https://cdn.pixabay.com/photo/2024/04/10/13/32/woman-8688045_960_720.jpg",
     descripcion: "Pantaloneta Entrenamiento. Para Mujer",
@@ -69,40 +77,45 @@ export const productos = [
 
   // TENIS
   {
+    id: 9,
     nombre: "Athletic Race H",
-    imagen: "",
+    imagen: "https://cdn.pixabay.com/photo/2014/06/18/18/42/running-shoe-371625_960_720.jpg",
     descripcion: "Tennis Running Hombre",
     categoria: "Calzado deportivo",
     precio: 225000,
     descuentos: "No disponible",
   },
   {
+    id: 10,
     nombre: "Athletic Race M",
-    imagen: "t2.jpg",
+    imagen: "https://cdn.pixabay.com/photo/2014/06/18/18/41/running-shoe-371624_1280.jpg",
     descripcion: "Tennis Running Mujer",
     categoria: "Calzado deportivo",
     precio: 225000,
     descuentos: "No disponible",
   },
   {
+    id: 11,
     nombre: "Converse Chuck Taylor Heroes",
-    imagen: "utils\images\t3.jpg",
+    imagen: "https://cdn.pixabay.com/photo/2013/05/31/20/33/running-shoes-115149_1280.jpg",
     descripcion: "Tennis Casuales Hombre",
     categoria: "Calzado deportivo",
     precio: 320000,
     descuentos: "No disponible",
   },
   {
+    id: 12,
     nombre: "Nike Air Jordan",
-    imagen: "t4.jpg",
+    imagen: "https://cdn.pixabay.com/photo/2019/12/11/08/43/sneaker-4687823_1280.jpg",
     descripcion: "Tennis Casuales Hombre",
     categoria: "Calzado deportivo",
     precio: 320000,
     descuentos: "No disponible",
   },
   {
+    id: 13,
     nombre: "Meindl Running H",
-    imagen: "t5.jpg",
+    imagen: "https://cdn.pixabay.com/photo/2020/07/19/05/29/adidas-5418991_1280.jpg",
     descripcion: "Tennis Meindl Running Hombre",
     categoria: "Calzado deportivo",
     precio: 260000,
@@ -111,40 +124,45 @@ export const productos = [
 
   // CHAQUETAS
   {
+    id: 14,
     nombre: "Rompevientos azul H",
-    imagen: "chaqueta1.png",
+    imagen: "https://cdn.pixabay.com/photo/2017/10/29/13/17/jacket-2899728_1280.png",
     descripcion: "Chaqueta rompevientos azul Hombre",
     categoria: "Chaquetas deportivas",
     precio: 110000,
     descuentos: "No disponible",
   },
   {
+    id: 15,
     nombre: "Rompevientos vinotinto H",
-    imagen: "chaqueta2.jpg",
+    imagen: "https://cdn.pixabay.com/photo/2021/08/15/01/55/couple-6546563_1280.jpg",
     descripcion: "Chaqueta rompevientos vinotinto Hombre",
     categoria: "Chaquetas deportivas",
     precio: 110000,
     descuentos: "No disponible",
   },
   {
+    id: 16,
     nombre: "Hoodie Badfit negro H",
-    imagen: "chaqueta3.jpg",
+    imagen: "https://cdn.pixabay.com/photo/2022/11/22/06/21/man-7608818_960_720.jpg",
     descripcion: "Hoodie Badfit negro Hombre",
     categoria: "Chaquetas deportivas",
     precio: 180000,
     descuentos: "No disponible",
   },
   {
-    nombre: "Chaqueta casual caqui H",
-    imagen: "chaqueta4.jpg",
-    descripcion: "Chaqueta casual caqui Hombre",
+    id: 17,
+    nombre: "Chaqueta casual verde H",
+    imagen: "https://cdn.pixabay.com/photo/2016/03/27/18/49/man-1283576_1280.jpg",
+    descripcion: "Chaqueta casual verde Hombre",
     categoria: "Chaquetas deportivas",
     precio: 230000,
     descuentos: "No disponible",
   },
   {
+    id: 18,
     nombre: "Chaqueta beisbolera H",
-    imagen: "chaqueta5.jpg",
+    imagen: "https://cdn.pixabay.com/photo/2022/04/04/18/28/male-7112073_960_720.jpg",
     descripcion: "Chaqueta beisbolera New York Yankees Hombre",
     categoria: "Chaquetas deportivas",
     precio: 380000,
