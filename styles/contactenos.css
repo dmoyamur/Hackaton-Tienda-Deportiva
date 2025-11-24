@@ -33,13 +33,13 @@ body {
 }
 
 /* --- Diseño de columnas --- */
-.row {
+.cont-row {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
 
-.col-md-6 {
+.col-conct {
     flex: 1;
     min-width: 300px;
     background: white;
@@ -77,7 +77,7 @@ input {
 }
 
 /* Botón de formulario */
-button {
+.btn-contact {
     margin-top: 20px;
     width: 20%;
     padding: 12px;
@@ -89,7 +89,7 @@ button {
     font-weight: bold;
 }
 
-button:hover {
+.btn-contact:hover {
     background-color: #2c2c28;
 }
 

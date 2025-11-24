@@ -65,11 +65,11 @@ export const mostrarCarrito = () => {
       
    
   });
- totalContenedor.textContent = `Total a pagar: $${total}`;
-  
+
+  totalContenedor.innerHTML = `Total a pagar: $${total}`;
 };
 
 export const eliminarDelCarrito = (id) => {
   carrito = carrito.filter((item) => item.id != id);
-  localStorage.setItem("carrito", JSON.stringify(carrito));
+ localStorage.setItem("carritoCompra", JSON.stringify(carrito));
 };
