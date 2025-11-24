@@ -1,0 +1,20 @@
+export const mostrarProductos = (lista) => {
+  const contenedor = document.getElementById("productos-container");
+  contenedor.innerHTML = "";
+
+  lista.map((prod) => {
+    contenedor.innerHTML += `
+      <div class="col-md-4 mb-4">
+        <div class="card" style="width: 18rem;">
+          <img src="${prod.imagen}" class="card-img-top" alt="${prod.nombre}">
+          <div class="card-body">
+            <h5 class="card-title">${prod.nombre}</h5>
+            <p class="card-text">${prod.descripcion}</p>
+            <p class="card-text">${prod.categoria}</p>
+            <p class="card-text">$ ${prod.precio}</p>
+          </div>
+        </div>
+      </div>
+    `;
+  });
+};
