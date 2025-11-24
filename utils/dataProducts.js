@@ -1,6 +1,7 @@
 export const productos = [
   // CAMISETAS
   {
+    id: 1,
     nombre: "Camiseta esqueleto Deportiva",
     descripcion: "Esqueleto Amplio Con Diseño Geométrico, Para Hombre",
     imagen: "https://cdn.pixabay.com/photo/2016/02/16/19/18/man-1203885_960_720.jpg",
@@ -9,6 +10,7 @@ export const productos = [
     descuentos: "0.1",
   },
   {
+    id: 2,
     nombre: "Camiseta Deportiva Mujer",
     imagen: "https://cdn.pixabay.com/photo/2023/05/08/21/59/woman-7979850_1280.jpg",
     descripcion: "Camiseta Minimalista AEROREADY Train Essentials Cuello Redondo",
@@ -17,6 +19,7 @@ export const productos = [
     descuentos: "0.1",
   },
   {
+    id: 3,
     nombre: "Camisita Deportiva Hombre",
     imagen: "https://cdn.pixabay.com/photo/2025/06/23/06/50/t-shirt-9675272_1280.jpg",
     descripcion: "Camiseta Training Essentials Holiday Pack",
@@ -25,6 +28,7 @@ export const productos = [
     descuentos: "0.15",
   },
   {
+    id: 4,
     nombre: "Camisita Deportiva Licra",
     imagen: "https://cdn.pixabay.com/photo/2016/09/21/21/37/sport-1685737_960_720.jpg",
     descripcion: "Camiseta Training Essentials Licra",
@@ -35,6 +39,7 @@ export const productos = [
 
   // PANTALONETAS
   {
+    id: 5,
     nombre: "Pantaloneta Deportiva Hombre",
     descripcion: "Pantaloneta Entrenamiento, Para hombre",
     imagen: "https://cdn.pixabay.com/photo/2022/11/26/22/24/athlete-7618566_1280.jpg",
@@ -43,6 +48,7 @@ export const productos = [
     descuentos: "0.1",
   },
   {
+    id: 6,
     nombre: "Pantaloneta Running Hombre",
     imagen: "https://cdn.pixabay.com/photo/2023/10/04/14/15/man-8293794_1280.jpg",
     descripcion: "Pantaloneta tipo running. Para hombre",
@@ -51,6 +57,7 @@ export const productos = [
     descuentos: "0.1",
   },
   {
+    id: 7,
     nombre: "Pantaloneta Running Mujer",
     imagen: "https://cdn.pixabay.com/photo/2024/08/18/13/00/woman-8977930_960_720.jpg",
     descripcion: "Pantaloneta tipo running. Para Mujer",
@@ -59,6 +66,7 @@ export const productos = [
     descuentos: "0.15",
   },
   {
+    id: 8,
     nombre: "Pantaloneta Deportiva Mujer",
     imagen: "https://cdn.pixabay.com/photo/2024/04/10/13/32/woman-8688045_960_720.jpg",
     descripcion: "Pantaloneta Entrenamiento. Para Mujer",
@@ -69,6 +77,7 @@ export const productos = [
 
   // TENIS
   {
+    id: 9,
     nombre: "Athletic Race H",
     imagen: "",
     descripcion: "Tennis Running Hombre",
@@ -77,6 +86,7 @@ export const productos = [
     descuentos: "No disponible",
   },
   {
+    id: 10,
     nombre: "Athletic Race M",
     imagen: "t2.jpg",
     descripcion: "Tennis Running Mujer",
@@ -85,6 +95,7 @@ export const productos = [
     descuentos: "No disponible",
   },
   {
+    id: 11,
     nombre: "Converse Chuck Taylor Heroes",
     imagen: "utils\images\t3.jpg",
     descripcion: "Tennis Casuales Hombre",
@@ -93,6 +104,7 @@ export const productos = [
     descuentos: "No disponible",
   },
   {
+    id: 12,
     nombre: "Nike Air Jordan",
     imagen: "t4.jpg",
     descripcion: "Tennis Casuales Hombre",
@@ -101,6 +113,7 @@ export const productos = [
     descuentos: "No disponible",
   },
   {
+    id: 13,
     nombre: "Meindl Running H",
     imagen: "t5.jpg",
     descripcion: "Tennis Meindl Running Hombre",
@@ -111,6 +124,7 @@ export const productos = [
 
   // CHAQUETAS
   {
+    id: 14,
     nombre: "Rompevientos azul H",
     imagen: "chaqueta1.png",
     descripcion: "Chaqueta rompevientos azul Hombre",
@@ -119,6 +133,7 @@ export const productos = [
     descuentos: "No disponible",
   },
   {
+    id: 15,
     nombre: "Rompevientos vinotinto H",
     imagen: "chaqueta2.jpg",
     descripcion: "Chaqueta rompevientos vinotinto Hombre",
@@ -127,6 +142,7 @@ export const productos = [
     descuentos: "No disponible",
   },
   {
+    id: 16,
     nombre: "Hoodie Badfit negro H",
     imagen: "chaqueta3.jpg",
     descripcion: "Hoodie Badfit negro Hombre",
@@ -135,6 +151,7 @@ export const productos = [
     descuentos: "No disponible",
   },
   {
+    id: 17,
     nombre: "Chaqueta casual caqui H",
     imagen: "chaqueta4.jpg",
     descripcion: "Chaqueta casual caqui Hombre",
@@ -143,6 +160,7 @@ export const productos = [
     descuentos: "No disponible",
   },
   {
+    id: 18,
     nombre: "Chaqueta beisbolera H",
     imagen: "chaqueta5.jpg",
     descripcion: "Chaqueta beisbolera New York Yankees Hombre",
