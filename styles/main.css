@@ -41,6 +41,7 @@
   color: #fff;
 }
 
+
 .card-img-top{
   width: 280px;
   height: 350px;
@@ -107,7 +108,7 @@ footer {
   width: 200px;
   height: auto;
 }
-
+ */
 /* ============================
    GENERALES
 ============================ */
@@ -204,4 +205,34 @@ h2{
 
 .datosF{
   background-color: var(--color-accent)!important;
+}
+
+/* ------------ BOTONES / CATEGORIAS ------------- */
+.btn-add-primary {
+  background-color: var(--color-primary);
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: var(--btn-radius);
+  font-family: var(--font-main);
+  box-shadow: var(--btn-shadow);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn-add-primary:hover {
+  background-color: var(--color-secondary);
+  color: black;
+}
+
+.categorias{
+  background-color: var(--color-secondary);
+  color: black;
+}
+.categorias:hover {
+  background-color: var(--color-accent);
+  color: #fff;
+}
+.nav-link.categorias.active {
+  background-color: var(--color-accent) !important;
+  color: var(--white) !important;
 }
