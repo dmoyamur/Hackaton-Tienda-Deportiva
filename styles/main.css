@@ -1,0 +1,27 @@
+:root {  
+  --color-primary: #f05300;    
+  --color-secondary: #f5f5dc;   
+  --color-accent: #ff7c39;      
+  --color-grey: #cbcbca        
+  --color-grey-dark: #2c2c28   
+  --font-main: sans-serif;
+
+  --btn-radius: 8px;
+  --btn-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.btn-add-primary {
+  background-color: var(--color-primary);
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: var(--btn-radius);
+  font-family: var(--font-main);
+  box-shadow: var(--btn-shadow);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-add-primary:hover {
+  background-color: var(--color-secondary);
+}
