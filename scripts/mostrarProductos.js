@@ -12,6 +12,14 @@ export const mostrarProductos = (lista) => {
             <p class="card-text">${prod.descripcion}</p>
             <p class="card-text">${prod.categoria}</p>
             <p class="card-text">$ ${prod.precio}</p>
+             <!-- Botón para agregar al carrito -->
+            <button 
+              class="btn btn-primary agregar-carrito" 
+              data-id="${prod.id}" 
+              data-bs-toggle="modal" 
+              data-bs-target="#modalCarrito">
+              Agregar al carrito
+            </button>
           </div>
         </div>
       </div>
