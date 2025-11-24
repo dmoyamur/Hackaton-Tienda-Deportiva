@@ -80,7 +80,6 @@ export const productos = [
     id: 19,
     nombre: "Athletic Race H",
     imagen: "https://cdn.pixabay.com/photo/2014/06/18/18/42/running-shoe-371625_1280.jpg",
-    imagen: "https://cdn.pixabay.com/photo/2014/06/18/18/42/running-shoe-371625_960_720.jpg",
     descripcion: "Tennis Running Hombre",
     categoria: "Calzado deportivo",
     precio: 225000,
