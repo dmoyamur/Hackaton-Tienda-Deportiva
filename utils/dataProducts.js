@@ -77,7 +77,7 @@ export const productos = [
 
   // TENIS
   {
-    id: 9,
+    id: 19,
     nombre: "Athletic Race H",
     imagen: "https://cdn.pixabay.com/photo/2014/06/18/18/42/running-shoe-371625_1280.jpg",
     descripcion: "Tennis Running Hombre",
@@ -86,7 +86,7 @@ export const productos = [
     descuentos: "No disponible",
   },
   {
-    id: 10,
+    id: 20,
     nombre: "Athletic Race M",
     imagen: "https://cdn.pixabay.com/photo/2014/06/18/18/41/running-shoe-371624_1280.jpg",
     descripcion: "Tennis Running Mujer",
@@ -95,8 +95,8 @@ export const productos = [
     descuentos: "No disponible",
   },
   {
-    id: 11,
-    nombre: "Converse Chuck Taylor Heroes",
+    id: 21,
+    nombre: "Converse Chuck Taylor Heroes V2",
     imagen: "https://cdn.pixabay.com/photo/2016/06/03/17/35/shoes-1433925_1280.jpg",
     descripcion: "Tennis Casuales Hombre",
     categoria: "Calzado deportivo",
@@ -104,8 +104,8 @@ export const productos = [
     descuentos: "No disponible",
   },
   {
-    id: 12,
-    nombre: "Nike Air Jordan",
+    id: 22,
+    nombre: "Nike Air Jordan V2",
     imagen: "https://cdn.pixabay.com/photo/2020/07/15/18/26/footwear-5408643_1280.jpg",
     descripcion: "Tennis Casuales Hombre",
     categoria: "Calzado deportivo",
@@ -113,8 +113,8 @@ export const productos = [
     descuentos: "No disponible",
   },
   {
-    id: 13,
-    nombre: "Meindl Running H",
+    id: 23,
+    nombre: "Meindl Running H V2",
     imagen: "https://cdn.pixabay.com/photo/2015/02/09/13/40/shoe-629643_1280.jpg",
     descripcion: "Tennis Meindl Running Hombre",
     categoria: "Calzado deportivo",
@@ -124,8 +124,8 @@ export const productos = [
 
   // CHAQUETAS
   {
-    id: 14,
-    nombre: "Rompevientos azul H",
+    id: 24,
+    nombre: "Rompevientos azul H V2",
     imagen: "https://cdn.pixabay.com/photo/2017/10/29/13/17/jacket-2899728_1280.png",
     descripcion: "Chaqueta rompevientos azul Hombre",
     categoria: "Chaquetas deportivas",
@@ -133,8 +133,8 @@ export const productos = [
     descuentos: "No disponible",
   },
   {
-    id: 15,
-    nombre: "Rompevientos vinotinto H",
+    id: 25,
+    nombre: "Rompevientos vinotinto H V2",
     imagen: "https://cdn.pixabay.com/photo/2021/08/15/01/55/couple-6546566_1280.jpg",
     descripcion: "Chaqueta rompevientos vinotinto Hombre",
     categoria: "Chaquetas deportivas",
@@ -142,8 +142,8 @@ export const productos = [
     descuentos: "No disponible",
   },
   {
-    id: 16,
-    nombre: "Hoodie Badfit negro H",
+    id: 26,
+    nombre: "Hoodie Badfit negro H V2",
     imagen: "https://cdn.pixabay.com/photo/2021/09/21/06/49/man-6642604_1280.jpg",
     descripcion: "Hoodie Badfit negro Hombre",
     categoria: "Chaquetas deportivas",
@@ -151,8 +151,8 @@ export const productos = [
     descuentos: "No disponible",
   },
   {
-    id: 17,
-    nombre: "Chaqueta casual caqui H",
+    id: 27,
+    nombre: "Chaqueta casual caqui H V2",
     imagen: "https://cdn.pixabay.com/photo/2017/09/07/04/51/thickened-2723891_1280.jpg",
     descripcion: "Chaqueta casual caqui Hombre",
     categoria: "Chaquetas deportivas",
@@ -160,8 +160,8 @@ export const productos = [
     descuentos: "No disponible",
   },
   {
-    id: 18,
-    nombre: "Chaqueta beisbolera H",
+    id: 28,
+    nombre: "Chaqueta beisbolera H V2",
     imagen: "https://cdn.pixabay.com/photo/2021/01/16/15/46/man-5922538_1280.jpg",
     descripcion: "Chaqueta beisbolera New York Yankees Hombre",
     categoria: "Chaquetas deportivas",
