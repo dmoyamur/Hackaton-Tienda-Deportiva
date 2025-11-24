@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./contactenos.css">
+    <title>Contáctanos</title>
+</head>
+
+<body>
+    <section class="contacto">
+        <div class="contenedor-titulo">
+            <h1 class="titulo">Contáctanos</h1>
+        </div>
+        <div class="container mt-5 contacto">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <ul class="lista-contacto">
+                        <li><i class="fa-solid fa-envelope"></i> genclothes@gmail.com</li>
+                        <li><i class="fa-solid fa-phone"></i> 3202134567</li>
+                        <li><i class="fa-solid fa-location-dot"></i> La Candelaria, Bogotá</li>                         
+                    </ul>
+                    
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5624.314391348985!2d-74.07471656272624!3d4.595661987837193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9993dc244163%3A0x3b1afc70f34b7042!2sCasa%20Samor!5e0!3m2!1ses!2sco!4v1764005495527!5m2!1ses!2sco" 
+                        width="500" 
+                        height="300" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <!-- Formulario de ayuda-->
+                    <h3 class="subtitulo">¿Necesitas ayuda?</h3>
+                    <form action="procesar_formulario"></form>
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                    <label for="e-mail">Correo electrónico</label>
+                    <input type="e-mail" id="e-mail" name="e-mail" placeholder="tunombre@correo.com" required>
+                    <label for="telefono">Teléfono</label>
+                    <input type="number" id="telefono" name="telefono" placeholder="Tu teléfono" required>
+                    <label for="mensaje">Mensaje</label>
+                    <input type="text" id="mensaje" name="mensaje" placeholder="Tu mensaje" required>
+                    <button type="submit">Enviar</button>
+                </div>
+            </div>
+        </div>
+<a href="https://wa.me/573202134567" 
+   class="whatsapp-btn" 
+   target="_blank">
+   <i class="fab fa-whatsapp"></i>
+</a>
+
+</body>
+</html>
