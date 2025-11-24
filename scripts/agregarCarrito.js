@@ -65,8 +65,8 @@ export const mostrarCarrito = () => {
       
    
   });
-//  totalContenedor.textContent = `Total a pagar: $${total}`;
-    totalContenedor.innerHTML = `Total a pagar: $${total}`;
+
+  totalContenedor.innerHTML = `Total a pagar: $${total}`;
 };
 
 export const eliminarDelCarrito = (id) => {

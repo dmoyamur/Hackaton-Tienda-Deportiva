@@ -32,7 +32,7 @@ export const mostrarProductos = lista => {
   btnCarrito.forEach(btn => {
     btn.addEventListener('click', (e) => {
 
-    //   const boton = e.currentTarget;  
+     const boton = e.currentTarget;  
     const id = parseInt(boton.dataset.id);
 
     console.log('desde la llamada o:', id );
