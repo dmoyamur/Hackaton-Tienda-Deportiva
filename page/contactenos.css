@@ -17,10 +17,19 @@ body {
 }
 
 /* Título principal */
+.contenedor-titulo {
+    background-color: #ff5c00;    
+    padding: 20px;                
+    border-radius: 8px;          
+    text-align: center;           
+    margin-bottom: 20px;          
+}
 .titulo {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 20px;
+    color: white;                               
+    margin: 0;                    
 }
 
 /* --- Diseño de columnas --- */
@@ -94,3 +103,26 @@ ul li {
     font-size: 1rem;
     border-bottom: 1px solid #ddd;
 }
+
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.whatsapp-btn:hover {
+    transform: scale(1.1);
+    background: #20ba57;
+}
+
