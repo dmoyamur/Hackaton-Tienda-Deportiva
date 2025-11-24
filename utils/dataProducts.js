@@ -70,7 +70,7 @@ export const productos = [
   // TENIS
   {
     nombre: "Athletic Race H",
-    imagen: "t1.jpg",
+    imagen: "",
     descripcion: "Tennis Running Hombre",
     categoria: "Calzado deportivo",
     precio: 225000,
@@ -86,7 +86,7 @@ export const productos = [
   },
   {
     nombre: "Converse Chuck Taylor Heroes",
-    imagen: "t3.jpg",
+    imagen: "utils\images\t3.jpg",
     descripcion: "Tennis Casuales Hombre",
     categoria: "Calzado deportivo",
     precio: 320000,
