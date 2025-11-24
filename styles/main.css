@@ -203,5 +203,5 @@ h2{
 }
 
 .datosF{
-  background-color: var(--color-secondary);
+  background-color: var(--color-accent)!important;
 }
