@@ -73,3 +73,8 @@
     background-color: var( --color-accent);
     color: #fff;
 }
+
+.imgcarrusel{
+  width: 200px;
+  height: 700px;
+}
