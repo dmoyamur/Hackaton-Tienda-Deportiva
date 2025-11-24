@@ -34,20 +34,18 @@
                             <a class="nav-link active list-group-item me-5" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link list-group-item me-5" href="#">Tienda</a>
+                            <a class="nav-link list-group-item me-5" href="#NuestraTienda">Tienda</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link list-group-item me-5" href="#">Contacto</a>
+                            <a class="nav-link list-group-item me-5" href="#Contacto">Contacto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link list-group-item me-5" href="#">Mi Carrito</a>
+                        <li class="nav-item">
+                            <a class="nav-link list-group-item me-5" href="#Nosotros">¿Quiénes Somos?</a>
                         </li>
-                        <form class="d-flex" role="search">
-                            <div class="search-container">
-                                <input type="text" placeholder="Buscar...">
-                                <i class="bi bi-search"></i>
-                            </div>
-                        </form>
+                        <li class="nav-item">
+                            <a class="nav-link list-group-item me-5" href="#modalCarrito">Mi Carrito</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -56,7 +54,7 @@
 
     <!--Carrusel-->
         <div class="container">
-        <div id="carouselExampleSlidesOnly" class="carousel slide w-80" data-bs-ride="carousel">
+        <div id="carouselExampleSlidesOnly" class="carousel slide w-70" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./utils/images/Camisetas.png" class="d-block w-100 imgcarrusel" alt="Camisetas">
@@ -73,7 +71,8 @@
 
     <!--Categorías-->
 
-         <div class="container-card">
+         <div class="container align-items-center">
+            <h2 class="text-center mb-5 section-title" id="NuestraTienda">Nuestra Tienda</h2>
             <div class="card-header">
                 <ul class="nav nav-tabs card-header-tabs" id="categorias-tabs">
                     <li class="nav-item">
@@ -136,7 +135,7 @@
 
 <section class="about-section py-5">
         <div class="container">
-            <h2 class="text-center mb-5 section-title">Acerca de Nosotros</h2>
+            <h2 class="text-center mb-5 section-title" id="Nosotros">Acerca de Nosotros</h2>
             <div class="row align-items-center g-5">
                 <!-- Imagen -->
                 <div class="col-md-6">
@@ -169,7 +168,7 @@
 
 <section class="contacto">
         <div class="container  mt-5">
-            <h2 class="text-center mb-5 section-title">Contáctanos</h2>
+            <h2 class="text-center mb-5 section-title" id="Contacto">Contáctanos</h2>
         </div>
         <div class="container mt-5 contacto">
             <div class="row cont-row">
@@ -210,21 +209,25 @@
 
 <footer class="datosFooter">
     <div id="logo">
-        <img id="imagen" src="logo/logo.png" alt="">
+        <img id="imagen" src="logo/logo.png" alt="Logo Genclothes">
     </div>
-    <div class="row">
-        <div class="datosF">
-            <h3>Menu</h3>
-            <div class="row"></div>
-            <p><a class="link-offset-2 link-underline link-underline-opacity-0" href="#">Inicio</a></p>
-            <p><a class="link-offset-2 link-underline link-underline-opacity-0" href="#">Tienda</a></p>
-            <p><a class="link-offset-2 link-underline link-underline-opacity-0" href="#">Contacto</a></p>
-            <p><a class="link-offset-2 link-underline link-underline-opacity-0" href="#">Mi cuenta</a></p>
-        </div>        
-        <div class="datosF">
-            
-            <p>genclothes@gmail.com | 3202134567 | La Candelaria, Bogotá</p>
+    <nav class="datosF navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="navbar-nav w-100 d-flex justify-content-between">
+            <a class="nav-link flex-fill text-center" href="#">Inicio</a>
+            <a class="nav-link flex-fill text-center" href="#NuestraTienda">Tienda</a>
+            <a class="nav-link flex-fill text-center" href="#Contacto">Contacto</a>
+            <a class="nav-link flex-fill text-center" href="#Nosotros">Quiénes Somos</a>
+            <a class="nav-link flex-fill text-center" href="#">Mi Carrito</a>
+            </div>
         </div>
+    </nav>
+    </br>
+    <div class="datosF">
+        <p>genclothes@gmail.com | 3202134567 | La Candelaria, Bogotá</p>
+    </div>
+    <div class="datosF ">
+        <p>Elaborado por Equipo Estudiantes Generation Cohorte 10-Java - Noviembre de 2025</p>
     </div>
 </footer>
 
